@@ -1,0 +1,236 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background: url(imagens/fundo.png) repeat-x;
+}
+
+/******************Inicio Topo do site**************/
+
+main {
+    width: 750px;
+    margin: 60px auto 40px auto;
+}
+
+header {
+    width: 750px;
+    margin: 0 auto;
+}
+
+
+
+
+#topo {
+    height: 200px;
+    border: 1px solid rgba(255, 255, 255, 0);
+    background: url(imagens/detalhe-topo.png) no-repeat right top;
+}
+
+#logo {
+    margin-top: 30px;
+}
+
+#navegacao {
+    text-decoration: none;
+    margin-top: 15px;
+    background-color: #B10333;
+    padding: 10px 15px;
+    width: 600px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+#navegacao li a {
+    text-decoration: none;
+    color: #FFFFFF;
+    line-height: 25px;
+    padding-right: 15px;
+}
+
+#navegacao li {
+    list-style-type: none;
+    background: url(imagens/divisor.png) no-repeat right;
+}
+
+#navegacao li a:hover {
+    color: #69012E;
+}
+
+/******************Fim Topo do site**************/
+
+h2 {
+    background-color: #294C71;
+    font-size: 16px;
+    line-height: 15px;
+    color: #FFFFFF;
+    padding: 10px ;
+    margin: 5px 0px;
+}
+
+/***** INICIO PRIMEIRA COLUNA*****/
+
+#primeiraColuna {
+    width: 270px;
+    background: url(imagens/fundo-caixa.png);
+    float: left;
+    margin: 0px 0px 20px 195px;
+}
+
+.reportagem1 {
+    padding: 5px;
+}
+
+.reportagem1 img {
+    width: 250px;
+    height: auto;
+    border: 3px solid #DFDFDF;
+}
+
+.reportagem1 a {
+    color: #E50040;
+}
+
+.reportagem1 a:hover {
+    color: #B10333;
+}
+
+.reportagem1 h3 {
+    font-size: 13px;
+    font-weight: bold;
+    color: #fff;
+    background-color: #B10333;
+    padding: 5px;
+}
+
+.fundoCaixa {
+    background-color: #fff;
+}
+
+#imgPequena {
+    width: 80px;
+    height: 53px;
+    float: left;
+    margin-right: 5px;
+}
+
+
+.reportagem2 {
+    border-bottom: 0.1em solid rgba(161, 161, 161, 0.2);
+    padding: 5px;
+
+}
+.reportagem2 h4{
+    font-size: 13px;
+    color:#3E7AB9;
+    line-height: 10.7px;
+    font-weight: bold;
+    padding: 7px 0 4px 0;
+    
+    
+    
+}
+.reportagem2 p{
+    font-size: 11px;
+    color:#000;
+    line-height: 9.3px;
+    padding: 3px 0 20px 0;
+
+    
+    
+}
+
+/***** FIM PRIMEIRA COLUNA*****/
+
+#segundaColuna {
+    background: url(imagens/fundo-caixa.png);
+    float: left;
+    width: 270px;
+    margin: 0px 0px 20px 15px;
+}
+
+/********BARRA LATERAL ******/
+
+#barraLateral {
+    background: url(imagens/fundo-caixa.png);
+    float: left;
+    width: 180px;
+    margin: 0px 0px 20px -750px;
+}
+
+.entrevistas {
+    padding: 5px;
+}
+
+.entrevistas ul {
+    list-style-type: none;
+}
+
+.entrevistas a {
+    text-decoration: none;
+    color: black;
+}
+
+.entrevistas li:hover {
+    color: #A1A1A1;
+    background: #F9F9F9 url(imagens/marcador.png) no-repeat left center;
+}
+
+.entrevistas li {
+    background-color: #fff;
+    border-bottom: 0.1em solid rgba(161, 161, 161, 0.2);
+    font-size: 14px;
+    line-height: 33px;
+    padding: 10px
+}
+
+/********FIM BARRA LATERAL ******/
+
+/******** INICIO NEWS LETTER ******/
+
+.newsLetter {
+    padding: 5px;
+    margin-top: 20px;
+}
+
+.newsLetter form {
+    background-color: #fff;
+    width: 168px;
+    margin: 0 auto;
+}
+
+.caixaEmail {
+    width: 125px;
+    border: 3px inset #767676;
+    padding: 5px;
+}
+
+.btn-cadastrar {
+    background-color: #B10333;
+    border: 1px solid #870529;
+    color: #fff;
+    padding: 7px;
+}
+
+/********FIM NEWS LETTER ******/
+
+/*********Rodapé********/
+
+footer {
+    color: #fff;
+    background-color: #294C71;
+    padding: 20px;
+    clear: both;
+    text-align: center;
+}
+
+/************Brasil ********************/
+
+#brasil{
+    width: 540px;
+}
